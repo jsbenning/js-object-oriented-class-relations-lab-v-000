@@ -18,6 +18,7 @@ class Driver {
     );
   }
   passengers(){
+    return store.passengers;
     
   }
 }
