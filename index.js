@@ -25,18 +25,18 @@ class Passenger {
   }
 }
 
-class Trip {
-  constructor(driver, passenger){
-    this.driver = driver;
-    this.passenger = passenger;
-    this.id = ++ tripId;
-    store.trips.push(this);
-  }
-  setDriver(driver){
-    this.driverId = driver.id;
-  }
-  setPassenger(passenger){
-    this .assengerId = passenger.id;
-  }
+// class Trip {
+//   constructor(driver, passenger){
+//     this.driver = driver;
+//     this.passenger = passenger;
+//     this.id = ++ tripId;
+//     store.trips.push(this);
+//   }
+//   setDriver(driver){
+//     this.driverId = driver.id;
+//   }
+//   setPassenger(passenger){
+//     this .assengerId = passenger.id;
+//   }
 
-}
+// }
