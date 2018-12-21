@@ -25,13 +25,13 @@ class Passenger {
   }
 }
 
-// class Trip {
-//   constructor(driver, passenger){
-//     this.driver = driver;
-//     this.passenger = passenger;
-//     this.id = ++ tripId;
-//     store.trips.push(this);
-//   }
+class Trip {
+  constructor(driver, passenger){
+    this.driver = driver;
+    this.passenger = passenger;
+    this.id = ++ tripId;
+    store.trips.push(this);
+  }
 //   setDriver(driver){
 //     this.driverId = driver.id;
 //   }
@@ -39,4 +39,4 @@ class Passenger {
 //     this .assengerId = passenger.id;
 //   }
 
-// }
+}
