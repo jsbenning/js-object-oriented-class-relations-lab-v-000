@@ -36,7 +36,7 @@ class Trip {
     this.driverId = driver.id;
   }
   setPassenger(passenger){
-    this passengerId = passenger.id;
+    this .assengerId = passenger.id;
   }
 
 }
