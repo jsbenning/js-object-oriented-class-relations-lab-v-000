@@ -35,6 +35,6 @@ class Trip {
   driver(){
     return store.drivers.find(driver){
       driver.id == this.driverId;
-    }
+    }.bind(this);
   }
 }
