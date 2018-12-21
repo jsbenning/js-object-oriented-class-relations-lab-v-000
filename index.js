@@ -37,11 +37,7 @@ class Passenger {
   }
   drivers(){
     let myTrips = this.trips();
-    return myTrips.filter(
-      function(trip){
-        return trip;
-      }.bind(this)
-    );
+    return myTrips;
   }
 }
 
