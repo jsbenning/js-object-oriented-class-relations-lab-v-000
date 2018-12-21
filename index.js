@@ -36,8 +36,8 @@ class Passenger {
     );
   }
   drivers(){
-    let myTrips = this.trips();
-    return myTrips;
+    return store.drivers;
+
   }
 }
 
