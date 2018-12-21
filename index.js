@@ -40,7 +40,8 @@ class Passenger {
     return myTrips.filter(
       function(trip){
         return trip.driver();
-      });
+      }.bind(this)
+    );
   }
 }
 
