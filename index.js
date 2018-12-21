@@ -39,7 +39,7 @@ class Passenger {
     let myTrips = this.trips();
     return myTrips.filter(
       function(trip){
-        return trip.driver();
+        return trip;
       }.bind(this)
     );
   }
