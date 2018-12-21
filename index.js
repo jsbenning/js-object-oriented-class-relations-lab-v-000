@@ -9,13 +9,6 @@ class Driver {
     this.id = ++ driverId;
     store.drivers.push(this)
   }
-  passengers(){
-    return store.trips.filter(obj){
-     function(obj){
-       return object.
-     }
-    }.bind(this)
-  }
 }
 
 class Passenger {
