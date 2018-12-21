@@ -37,7 +37,7 @@ class Passenger {
     );
   }
   drivers(){
-    return store.drivers;
+    return store.drivers; 
   }
 
 }
