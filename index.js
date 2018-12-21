@@ -10,11 +10,11 @@ class Driver {
     this.id = ++ driverId;
     store.drivers.push(this)
   }
-  trips(){
-    return store.trips.filter(trip){
-      trip.driverId == this.id;
-    }
-  }
+  // trips(){
+  //   return store.trips.filter(trip){
+  //     trip.driverId == this.id;
+  //   }
+  // }
 }
 
 class Passenger {
