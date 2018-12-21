@@ -1,0 +1,32 @@
+let store = { drivers: [], passengers: [], trips: []};
+
+let driverId = 0;
+let passengerId = 0;
+
+class Driver {
+  constructor(name){
+    this.name = name;
+    this.id = ++ driverId;
+    store.drivers.push(this)
+  }
+  passengers(){
+    return store.trips.filter(obj){
+     function(obj){
+       return object.
+     }
+    }.bind(this)
+  }
+}
+
+class Passenger {
+  constructor(name){
+    this.name = name;
+    this.id = passengerId;
+    store.passengers.push(this);
+  }
+}
+
+class Trip {
+  constuctor(driver, passenger){
+  }
+}
