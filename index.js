@@ -35,6 +35,10 @@ class Passenger {
       }.bind(this)
     );
   }
+  drivers(){
+    let myTrips = this.trips();
+    return myTrips.drivers();
+  }
 }
 
 class Trip {
