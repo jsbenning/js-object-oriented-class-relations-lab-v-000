@@ -27,14 +27,16 @@ class Passenger {
 
 class Trip {
   constructor(driver, passenger){
-    this.driverId = driver.id;
-    this.passengerId = passenger.id;
+    this.driver= driver;
+    this.passenger = passenger;
     this.id = ++ tripId;
     store.trips.push(this);
   }
-  driver(){
-    return store.drivers.find(driver){
-      driver.id == this.driverId;
-    }.bind(this);
+  setDriver(driver){
+    this.driverId = driver.id;
   }
+  setPassenger(passenger){
+    this passengerId = passenger.id;
+  }
+
 }
