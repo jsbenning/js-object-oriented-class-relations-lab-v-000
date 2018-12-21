@@ -41,11 +41,11 @@ class Trip {
     this.id = ++ tripId;
     store.trips.push(this);
   }
-//   setDriver(driver){
-//     this.driverId = driver.id;
-//   }
-//   setPassenger(passenger){
-//     this.passengerId = passenger.id;
-//   }
+  setDriver(driver){
+    this.driverId = driver.id;
+  }
+  setPassenger(passenger){
+    this.passengerId = passenger.id;
+  }
 
 }
