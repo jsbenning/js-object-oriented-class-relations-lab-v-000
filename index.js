@@ -45,7 +45,7 @@ class Trip {
 //     this.driverId = driver.id;
 //   }
 //   setPassenger(passenger){
-//     this .assengerId = passenger.id;
+//     this.passengerId = passenger.id;
 //   }
 
 }
